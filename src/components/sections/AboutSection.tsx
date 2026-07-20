@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { User, FileText, UserCircle, MapPin, Phone, Clock } from 'lucide-react';
 import SectionHeading from '../ui/SectionHeading';
 import { ABOUT, BIO, SUBJECT } from '../../content/data';
+import jatinPhoto from '../../assets/jatin.jpg';
 
 export default function AboutSection() {
   return (
@@ -47,22 +48,23 @@ export default function AboutSection() {
           className="panel relative overflow-hidden p-6"
         >
           {/* Subject card */}
-          <div className="mb-4 flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest text-neon-red/80">
-            <UserCircle className="h-3.5 w-3.5" /> Subject Profile
-          </div>
           <div className="relative mx-auto mb-4 h-44 w-36 overflow-hidden rounded-md border-2 border-white/20 bg-gradient-to-b from-ink-700 to-ink-900">
-            <div className="absolute inset-0 bg-grid-cyan bg-[size:14px_14px] opacity-30" />
-            <div className="flex h-full flex-col items-center justify-center gap-2 p-3 text-center">
-              <div className="h-16 w-16 rounded-full border-2 border-neon-blue/40 bg-ink-800" />
-              <div className="font-mono text-[9px] uppercase tracking-widest text-white/50">
-                {/* TODO: Replace with actual Jatin photo */}
-                Photo Redacted
-              </div>
-            </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-neon-red/80 py-0.5 text-center font-mono text-[8px] uppercase tracking-widest text-black">
-              Classified
-            </div>
-          </div>
+  <img
+    src={jatinPhoto}
+    alt="Jatin Naga Sai Bandireddi"
+    className="h-full w-full object-cover"
+  />
+
+  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+
+  <div className="absolute top-2 right-2 rotate-12 rounded border border-red-700 bg-red-600 px-2 py-1 font-mono text-[8px] font-bold uppercase tracking-wider text-white">
+    WANTED
+  </div>
+
+  <div className="absolute bottom-0 left-0 right-0 bg-neon-red/80 py-0.5 text-center font-mono text-[8px] uppercase tracking-widest text-black">
+    Classified
+  </div>
+</div>
 
           <dl className="space-y-2 font-mono text-xs">
             {[
