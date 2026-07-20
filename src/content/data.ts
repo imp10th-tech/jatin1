@@ -210,11 +210,11 @@ export const WITNESS_STATEMENTS = [
     reliability: 'Very High',
   },
   {
-    witness: 'Witness L (Instagram)',
-    statement:
-      'The subject uploaded three stories, liked five reels, and commented "😂😂😂" under a meme while simultaneously claiming he "didn't see the message."',
-    reliability: 'Very High',
-  },
+  witness: "Witness L (Instagram)",
+  statement:
+    "The subject uploaded three stories, liked five reels, and commented \"😂😂😂\" under a meme while simultaneously claiming he \"didn't see the message.\"",
+  reliability: "Very High",
+},
   {
     witness: 'Witness M (Investigation Officer)',
     statement:
