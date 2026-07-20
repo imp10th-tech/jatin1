@@ -709,7 +709,7 @@ export const FAKE_RESUME = {
       org: 'Borrowed Vehicle Association',
       period: '2025',
       points: [
-        'Successfully stress-tested a friend's friend's scooty under maximum passenger capacity.',
+'Successfully stress-tested a friend\'s friend\'s scooty under maximum passenger capacity.'
         'Conducted an involuntary road-friction experiment.',
         'Authored the groundbreaking report: "It Was the Brakes."',
       ],
