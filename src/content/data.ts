@@ -224,19 +224,19 @@ export const WITNESS_STATEMENTS = [
   {
     witness: 'Witness N (Group Chat Admin)',
     statement:
-      'Whenever plans are made, we automatically add one extra hour to the schedule. It's called the "Jatin Adjustment." Without it, nobody reaches on time.',
+      'Whenever plans are made, we automatically add one extra hour to the schedule. It\'s called the "Jatin Adjustment." Without it, nobody reaches on time.',
     reliability: 'High',
   },
   {
     witness: 'Witness O (Clock)',
     statement:
-      'I have witnessed many strange things in my lifetime. Nothing is more accurate than this man's disappearance at exactly 5:10 PM. Swiss watches should study him.',
+      'I have witnessed many strange things in my lifetime. Nothing is more accurate than this man\'s disappearance at exactly 5:10 PM. Swiss watches should study him.',
     reliability: 'Certified',
   },
   {
     witness: 'Witness P (Excuse Generator AI)',
     statement:
-      'I was trained on billions of words, yet I still can't generate excuses as fast as this guy. Frankly, I'm impressed.',
+      'I was trained on billions of words, yet I still can\'t generate excuses as fast as this guy. Frankly, I\'m impressed.',
     reliability: 'Experimental',
   },
   {
@@ -248,7 +248,7 @@ export const WITNESS_STATEMENTS = [
   {
     witness: 'Witness R (Truth)',
     statement:
-      'I've been trying to meet the investigators for months, but every time I get close, an excuse reaches them first.',
+      'I\'ve been trying to meet the investigators for months, but every time I get close, an excuse reaches them first.',
     reliability: 'Missing',
   },
   {
@@ -260,7 +260,7 @@ export const WITNESS_STATEMENTS = [
   {
     witness: 'Witness T (Entire Friend Circle)',
     statement:
-      'We've stopped investigating. At this point we simply document the incidents and wait for the next FBI case file.',
+      'We\'ve stopped investigating. At this point we simply document the incidents and wait for the next FBI case file.',
     reliability: 'Unanimous',
   },
   { witness: 'Witness F (Maintenance Staff)', 
@@ -894,7 +894,7 @@ export const CLASSIFIED_DOCS = [
     classification: 'RESTRICTED',
     title: 'Location Misinformation Program',
     body:
-      'Investigators have confirmed that the subject\'s reported location rarely matches reality. Statements such as "I'm nearby," "I'm at home," and "I'm almost there" require independent verification before being considered credible.',
+      'Investigators have confirmed that the subject\'s reported location rarely matches reality. Statements such as "I\'m nearby," "I\'m at home," and "I\'m almost there" require independent verification before being considered credible.',
   },
   {
     code: 'DOC-H8',
@@ -1072,7 +1072,7 @@ export const VERDICT = {
     'After reviewing 7 major FBI case files, 4,287 documented excuses, multiple CCTV recordings, one damaged scooty, several destroyed benches, one electrical incident, hundreds of ignored messages, and testimony from countless confused witnesses, the Friend Bureau of Investigation has reached a unanimous verdict.',
 
   finding: 'GUILTY ON ALL COUNTS',
-  Psychological Report
+'Psychological Report': `
 
 Diagnosis:
 
@@ -1098,6 +1098,7 @@ Do not trust ETAs.
 Do not wait roadside.
 
 Carry food.
+`,
   
   sentence:
     'Provide unlimited Biryani to the friend group, reveal the truth behind the daily 5:10 PM disappearances, stop blaming innocent brake systems, and reply to messages within one Earth day.',
