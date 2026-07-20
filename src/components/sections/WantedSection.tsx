@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { Award, Star, Skull, Trophy } from 'lucide-react';
 import SectionHeading from '../ui/SectionHeading';
 import { HALL_OF_SHAME, HALL_OF_FAME, SUBJECT } from '../../content/data';
+import jatinPhoto from '../../assets/jatin1.jpg';
+
 
 export default function WantedSection() {
   return (
@@ -30,12 +32,17 @@ export default function WantedSection() {
             Dead or Alive (preferably alive, with biryani)
           </div>
           <div className="relative mx-auto my-4 h-56 w-44 overflow-hidden rounded-sm border-4 border-black/80 bg-gradient-to-b from-ink-700 to-ink-900">
+              <img
+    src={jatinPhoto}
+    alt="Jatin Naga Sai Bandireddi"
+    className="h-full w-full object-cover"
+  />
             <div className="absolute inset-0 bg-grid-cyan bg-[size:14px_14px] opacity-30" />
             <div className="flex h-full flex-col items-center justify-center gap-2 p-3 text-center">
               <div className="h-24 w-24 rounded-full border-2 border-white/30 bg-ink-800" />
               <div className="font-mono text-[9px] uppercase tracking-widest text-white/60">
                 {/* TODO: Replace with actual Jatin photo */}
-                Photo Redacted
+                Wanted
               </div>
             </div>
           </div>
