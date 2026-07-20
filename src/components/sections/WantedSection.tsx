@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Award, Star, Skull, Trophy } from 'lucide-react';
 import SectionHeading from '../ui/SectionHeading';
 import { HALL_OF_SHAME, HALL_OF_FAME, SUBJECT } from '../../content/data';
-import jatinPhoto from '../../assets/jatin1.jpg';
+import jatinPhoto from '../../assets/jatin1.jpeg';
 
 
 export default function WantedSection() {
