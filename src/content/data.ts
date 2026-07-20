@@ -5,7 +5,7 @@ export const SUBJECT = {
   shortName: 'Jatin',
   caseId: 'FBI-2026-0720-BANDIREDDI',
   classification: 'TOP SECRET // FRIEND EYES ONLY',
-  aliases: ['JATIN', 'JAT-ANNAYYA', 'THE 5-MINUTE LEGEND', 'CHARGER GHOST', 'BANDIREDDI GARU'],
+  aliases: ['JATIN', 'JAT-ANNAYYA', 'THE 5-MINUTE LEGEND', 'BANDIREDDI'],
   threatLevel: 'COMEDIC — LEVEL 9',
   knownAffiliations: ['Group Chat (Admin, but silent)', 'Snack Sharing Ring', 'Procrastinators Guild'],
   lastSeen: 'Online, but read receipts off',
@@ -1023,7 +1023,7 @@ counters: [
   value:1,
   icon:'💡'
 },
-]
+],
   meters: [
     { label: 'Laziness Meter', value: 97, color: 'red' },
     { label: 'Reply Probability', value: 11, color: 'blue' },
