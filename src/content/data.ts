@@ -167,12 +167,12 @@ export const WITNESS_STATEMENTS = [
       'He told me "2 minutes ra." I waited for more than an hour. By the time he came back, I knew every crack on that road by name.',
     reliability: 'Very High',
   },
-  {
-    witness: 'Witness E (Friend Group)',
-    statement:
-      'We don't even ask where he's going anymore. If the clock shows 5:09 PM, we just say our goodbyes. At 5:10, he's already in another dimension.',
-    reliability: 'High',
-  },
+ {
+  witness: "Witness E (Friend Group)",
+  statement:
+    "We don't even ask where he's going anymore. If the clock shows 5:09 PM, we just say our goodbyes. At 5:10, he's already in another dimension.",
+  reliability: "High",
+},
   {
     witness: 'Witness F (Tea Stall Owner)',
     statement:
