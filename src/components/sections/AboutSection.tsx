@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { User, FileText, UserCircle, MapPin, Phone, Clock } from 'lucide-react';
 import SectionHeading from '../ui/SectionHeading';
 import { ABOUT, BIO, SUBJECT } from '../../content/data';
-import jatinPhoto from '../../assets/jatin.jpg';
+import jatinPhoto from '../../assets/jatin.jpeg';
 
 export default function AboutSection() {
   return (
