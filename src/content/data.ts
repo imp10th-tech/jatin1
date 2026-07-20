@@ -1038,6 +1038,14 @@ counters: [
 };
 
 export const CHART_DATA = {
+  // Added missing property required by the pie chart (S component)
+  snackByType: [
+    { label: 'Chocolates', value: 45, color: '#ff2d55' },
+    { label: 'Chips & Savories', value: 30, color: '#ffb020' },
+    { label: 'Chai / Drinks', value: 15, color: '#00e5ff' },
+    { label: 'Biscuits', value: 10, color: '#a855f7' },
+  ],
+
   // Average replies sent per day
   weeklyReplies: [
     { day: 'Mon', value: 1 },
